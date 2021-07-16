@@ -18,7 +18,7 @@ formulario.addEventListener('submit', (e) => {
 
   let content = document.getElementById('content');
 
-  let carregando = `<img src="./assets/loader.gif">`;
+  let carregando = `<img class="loader" src="./assets/loader.gif">`;
 
   let pronto = `<p>Cadastro realizado com sucesso!!!</p><br/>
                 <input type='submit' onClick="window.location.href = 'http://127.0.0.1:5500/index.html'" id="button" value='Home' />`;
