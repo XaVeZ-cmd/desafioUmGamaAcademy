@@ -21,7 +21,7 @@ formulario.addEventListener('submit', (e) => {
   let carregando = `<img class="loader" src="./assets/loader.gif">`;
 
   let pronto = `<p>Cadastro realizado com sucesso!!!</p><br/>
-                <input type='submit' onClick="window.location.href = 'http://127.0.0.1:5500/index.html'" id="button" value='Home' />`;
+                <input type='submit' onClick="window.location.href = 'https://upbeat-hugle-a8f26d.netlify.app/'" id="button" value='Home' />`;
 
   content.innerHTML = carregando;
 
